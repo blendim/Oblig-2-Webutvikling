@@ -1,0 +1,137 @@
+img {
+    max-width: 100%;
+    border: 3px solid #3C3C3C;
+    box-shadow: 5px 5px;
+    height: 246px;
+    width: 406px;
+}
+
+body{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+    border: solid 3px #3C3C3C;
+    grid-area: 
+    "header"
+    "meny"
+    "main sideKol"
+    "footer footer footer";
+}
+
+header {
+    
+    background-color: #3C3C3C
+}
+
+h1 {
+
+    color: white;
+}
+
+h3 {
+    margin: 20px 0px 35px 0px;
+    color: #3C3C3C;
+}
+
+
+
+ nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #DEDEDE;
+    height: 20px;
+    list-style: none;
+    border: 1px solid #3C3C3C;
+    
+}
+
+nav ul a {
+    color: #3C3C3C;
+    text-decoration: none;
+    font-size: 20px;
+    height: auto;
+
+}
+
+ul a:hover {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#sideKol aside #sideList {
+
+    display:grid;
+    grid-gap: 20px;
+    
+}
+
+#sideKol {
+    background-color: #3C3C3C;
+    border: 2px solid black;
+}
+
+#sideKol #sideList a {
+    text-decoration: none;
+    list-style: none;
+    color: #DEDEDE;
+}
+
+
+  #gitHub a {
+    
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    margin: 30px;
+    width: 70px;
+    color: white;
+}
+
+#gitHub a:hover {
+    font-weight: bold;
+}
+
+.links ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;     
+}
+
+
+.links {
+    background-color: #3C3C3C;
+}
+
+.links ul a {
+    color:#DEDEDE;
+    list-style: none;
+    text-decoration: none;
+}
+
+article {
+
+    width: 400px;
+}
+
+
+iframe {
+    margin: 30px;
+}
+
+#gitBilde {
+    width: 300px;
+    height:150px;
+}
